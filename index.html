@@ -2,11 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JS | Variables and Methods</title>
-    <script src="script.js" defer></script>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Your html goes here...</h1>
-    <br>See the <a href="README.md">README</a> for project details
+
+    <nav>
+        <div class="logo">MySite</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Welcome Home</h1>
+        <p id="displayText">Click a button to interact with the page.</p>
+
+        <div class="button-group">
+            <button id="toggleThemeBtn">Enable Dark Mode</button>
+            <button id="quoteBtn">Generate Quote</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
